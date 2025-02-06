@@ -2,6 +2,7 @@
 name: Warning
 about: Data and/or code needs to be double checked
 title: "[Warning]"
+type: "Task"
 labels: warning
 assignees: ''
 

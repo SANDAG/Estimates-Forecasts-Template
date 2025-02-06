@@ -2,6 +2,7 @@
 name: Documentation Request
 about: Suggest fix or addition to documentation
 title: "[DOC]"
+type: "Task"
 labels: documentation
 assignees: ''
 
