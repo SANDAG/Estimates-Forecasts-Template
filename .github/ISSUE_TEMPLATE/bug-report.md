@@ -3,19 +3,17 @@ name: Bug Report
 about: Bug report
 title: "[BUG]"
 type: "Bug"
-labels: bug
 assignees: ''
-
 ---
 
-**Describe the bug**
+### Describe the bug
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+### To Reproduce
 Steps to reproduce the behavior.
 
-**Expected behavior**
+### Expected behavior
 A clear and concise description of what you expected to happen.
 
-**Potential resolution**
+### Potential resolution
 Describe potential resolution/solution to the observed bug.
