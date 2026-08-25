@@ -15,12 +15,12 @@ Each project created from this template should keep a short "Secrets" section in
 
 ```yaml
 database:
-	server: your_server_name
-	user: your_username
-	password: your_password
+    server: your_server_name
+    user: your_username
+    password: your_password
 
 api:
-	token: your_api_token
+    token: your_api_token
 ```
 
 ### Example `secrets.toml`:
