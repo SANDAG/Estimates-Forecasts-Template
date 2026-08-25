@@ -14,10 +14,9 @@ Each project created from this template should keep a short "Secrets" section in
 ### Example `secrets.yml`:
 
 ```yaml
-database:
+sql:
     server: your_server_name
-    user: your_username
-    password: your_password
+    database: your_database
 
 api:
     token: your_api_token
@@ -26,10 +25,9 @@ api:
 ### Example `secrets.toml`:
 
 ```toml
-[database]
+[sql]
 server = "your_server_name"
-user = "your_username"
-password = "your_password"
+database = "your_database"
 
 [api]
 token = "your_api_token"
