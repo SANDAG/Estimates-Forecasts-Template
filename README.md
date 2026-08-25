@@ -4,7 +4,33 @@ Github Template Repository for Estimates and Forecasts Team Python projects. Use
 ## How to use Template Repositories
 New repositories can be created from template repositories via the [GitHub website GUI](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
-## Configuration of Private Data in secrets.yml
-In order to avoid exposing certain data to the public it is advised to use a secrets file to store sensitive configurations *(such as server names, authorization tokens, etc...)* in addition to a standard configuration file. This file is stored in the root directory of the repository as `secrets.yml` and is included in the `.gitignore` intentionally to avoid it ever being committed to the repository.
+## Configuration of Private Data in secrets files
+To avoid exposing private data, store sensitive configuration values *(such as server names, usernames, and API tokens)* in a secrets file in addition to your standard configuration file.
 
-It is important that a section is added to the project `README.md` describing how the `secrets.yml` is used and how it is structured along with an example.
+Place the secrets file in the repository root as either `secrets.yml` or `secrets.toml`. Both file names are intentionally included in `.gitignore` so secrets are not committed.
+
+Each project created from this template should keep a short "Secrets" section in its own `README.md` that explains its use.
+
+### Example `secrets.yml`:
+
+```yaml
+database:
+	server: your_server_name
+	user: your_username
+	password: your_password
+
+api:
+	token: your_api_token
+```
+
+### Example `secrets.toml`:
+
+```toml
+[database]
+server = "your_server_name"
+user = "your_username"
+password = "your_password"
+
+[api]
+token = "your_api_token"
+```
